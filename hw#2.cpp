@@ -88,5 +88,5 @@
         <p>&copy; 2024 Premium Vintage Shoe Store. All rights reserved.</p>
     </div>
 
-</bod>
+</body>
 </html>
