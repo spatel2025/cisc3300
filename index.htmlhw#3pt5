@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department</title>
+    <!-- Include the Raleway font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark grey color for text */
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar {
+            background-color: #d9d9d9; /* Grey background for sidebar */
+            width: 25%;
+            padding: 20px;
+        }
+        .content {
+            width: 75%;
+            padding-left: 20px;
+        }
+        .header, .department-link, .sidebar-header {
+            color: #8B0000; /* Dark red color */
+            font-weight: 700;
+        }
+        .header {
+            font-size: 48px; /* Large font size for the header */
+            margin-bottom: 20px;
+        }
+        .nav {
+            font-size: 14px; /* Smaller font size for navigation */
+            color: #666; /* Medium grey for navigation */
+            margin-bottom: 20px; /* Adjusted margin for spacing */
+        }
+        .main-text {
+            font-size: 16px; /* Standard font size for content */
+            line-height: 1.6;
+            margin-bottom: 20px; /* Space between paragraphs */
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebar-header {
+            font-size: 20px; /* Size for sidebar header */
+            margin-bottom: 20px;
+        }
+        .department-link {
+            color: #8B0000; /* Dark red color for department link */
+            text-decoration: none; /* No underline for link */
+        }
+        @media (max-width: 768px) {
+            .sidebar, .content {
+                width: 100%;
+                padding: 0 20px;
+            }
+            .content {
+                padding-top: 20px;
+            }
+        }
+
+.majors-minors-box {
+    background-color: #8B0000; /* Dark red background */
+    color: #fff; /* White text */
+    padding: 10px;
+    margin-top: 20px; /* Space above the text box */
+    margin-bottom: 20px; /* Space below the text box */
+    font-weight: bold;
+    text-align: center; /* Centered text */
+}
+
+.dark-red-text {
+    color: #8B0000; /* Dark red color */
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">Majors and Minors</div>
+            <p>What's Your Passion?</p>
+            <p>Accelerated Degree Programs</p>
+            <div class="majors-minors-box">Majors and Minors</div>
+
+        </div>
+        <div class="content"><img src="https://www.fordham.edu/media/review/content-assets/migrated/images/iStock_000021097427Medium.jpg" style="float: right; width: 25%; margin-left: 20px; margin-top: 310px;">
+            <div class="nav">Home / Admissions and Aid / Undergraduate Admission / Majors and Minors / <span class="dark-red-text">Computer Science</span></div>
+            <div class="header">Computer Science</div>
+            <div class="main-text flex-container">
+                <p>Degree Options: Major, Minor</p>
+                <p>Locations: Lincoln Center, Rose Hill</p>
+		<p>Visit the <a href="https://www.fordham.edu/academics/departments/computer-and-information-science/" class="department-link">Computer and Information Science Department</a></p><br>  
+                <p>Wherever there's a computer, there's a skilled person developing, maintaining, hacking, advancing or simply using it. Be that person.</p><br>
+                <p>It's difficult to imagine life without computers when they're so central to our information-driven global society. But it's not difficult to imagine the amazing pursuits you'll be prepared for with a degree in computer science from Fordham's department of Computer and Information Sciences.</p><br>
+                <p>The computer science major emphasizes science and technology, including software design and programming, computer architecture and functions, and the development of an ability to analyze and solve problems in using the computer as a tool.</p><br>
+                <p> Get inspired by the classes we offer. Programming. Bioinformatics. Robotics. Video game design. Cyber security. Networking. Database management. Health and medical informatics.</p><br>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

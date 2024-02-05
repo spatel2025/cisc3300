@@ -1,0 +1,11 @@
+
+Compare: 
+
+Margins are classified as the space which surrounds an element.  
+Padding lies in between the content and the border, and is the space that is inside an element 
+Border is a line that is around the content and padding.
+
+Contrast:
+
+Margins can merge, while padding cannot.  Margins don't change the size of an element, however, borders can make a element seem bigger.  Padding can increase an elements size like borders.  Padding is inside the border, margins are outside the border, and padding is inside the border.
+

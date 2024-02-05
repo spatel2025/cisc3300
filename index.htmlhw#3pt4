@@ -1,0 +1,20 @@
+a) display: flex
+
+Enables flexbox for container element.  For instance, it allows for the items to align demonstrating its flexibility.
+
+b) flex-direction
+
+Used to set direction which shows how certain items become laid out.  This can be shown in columns/rows
+
+c) flex-wrap
+
+This flexbox rule allows for items to become wrapped onto several lines.  Using thisenables an item to become wrapped not only in one line.
+
+d) justify-content/align-items
+
+The justify-content rule is used to lay out items on whichever direction is the main one.  For instance, this could be from left --> right or right --> left.
+The align-items rule is used to align the items from across the direction, for isntance, top --> bottom or bottom --> top
+
+e) align-content 
+
+This rule allows for the spacing that is between the lines within a flex container handling several lines to be adjusted.
