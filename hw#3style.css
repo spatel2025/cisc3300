@@ -20,6 +20,6 @@ p { color: blue; }
 .color-class + span { color: pink; }
 
 /* h. Set all general sibling div elements of ‘color class’ to be color: navy; */
-.color-class ~ div { color: navy; }
+color-class ~ div { color: navy; }
 ~
 
