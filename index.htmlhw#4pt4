@@ -1,6 +1,6 @@
 4. JavaScript Objects vs. Traditional OOP Objects:
 
-n JavaScript, objects include key-value pairs. They may store a variety of data kinds and can
+In JavaScript, objects include key-value pairs. They may store a variety of data kinds and can
 be updated, copied, and examined during runtime. JavaScript&#39;s method for dealing with
 objects and inheritance (based on prototypes) is different from traditional object-oriented
 programming (OOP) languages that use classes as blueprints for objects.
