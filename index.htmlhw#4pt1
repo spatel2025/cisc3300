@@ -1,6 +1,6 @@
 1. JavaScript and Interpreted vs. Compiled Languages:
 
-JavaScript is a high-level, interpreted programming language that is well-known for its use in
+avaScript is a high-level, interpreted programming language that is well-known for its use in
 web development, where it allows for dynamic content on websites. The main distinction
 between interpreted and compiled languages is how their code is executed. An interpreter
 executes interpreted languages line by line at runtime, eliminating the requirement for them
