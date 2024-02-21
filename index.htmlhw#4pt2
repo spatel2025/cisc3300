@@ -1,6 +1,6 @@
 2. Difference between var, let, and const:
 
-ar declares a global or local variable to an entire function, regardless of block scope.
+Var declares a global or local variable to an entire function, regardless of block scope.
 
 Let allows you to declare variables with a scope confined to the block, statement, or
 expression in which they are used.
