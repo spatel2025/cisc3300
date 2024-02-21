@@ -1,0 +1,6 @@
+3. Anonymous and Higher Order Functions:
+
+Anonymous functions are those without a name. They are frequently used as variables to
+other functions or as instant function expressions (IIFEs). Higher-order functions can accept
+other functions as inputs and return them as results. They are a vital part of functional
+programming in JavaScript.

@@ -1,0 +1,8 @@
+2. Difference between var, let, and const:
+
+var declares a global or local variable to an entire function, regardless of block scope.
+
+Let allows you to declare variables with a scope confined to the block, statement, or
+expression in which they are used.
+
+Const is used to declare variables that cannot be reassigned, and it, like let, is block scoped.

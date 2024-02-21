@@ -1,0 +1,8 @@
+1. JavaScript and Interpreted vs. Compiled Languages:
+
+avaScript is a high-level, interpreted programming language that is well-known for its use in
+web development, where it allows for dynamic content on websites. The main distinction
+between interpreted and compiled languages is how their code is executed. An interpreter
+executes interpreted languages line by line at runtime, eliminating the requirement for them
+to be pre-compiled into machine code. A compiler, on the other hand, converts compiled
+languages into machine code before they are executed by the computer.
