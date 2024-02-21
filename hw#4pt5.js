@@ -21,5 +21,5 @@ if (cat.adoptionStatus === &#39;available&#39;) {
 resultArray.push(cat.name);
 }
 });
-lt adoptionSentence = &quot;I have adopted the following cats: &quot; + resultArray.join(&#39;, &#39;) + &quot;.&quot;;
+let adoptionSentence = &quot;I have adopted the following cats: &quot; + resultArray.join(&#39;, &#39;) + &quot;.&quot;;
 console.log(adoptionSentence);
