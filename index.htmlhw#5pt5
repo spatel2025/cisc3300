@@ -1,10 +1,11 @@
 
-XS (Cross Site-Scripting) attacks are a sort of security weakness commonly identified in
+
+XSS (cross-site scripting) attacks are a sort of security weakness commonly identified in
 online applications. XSS attacks allow attackers to inject harmful scripts into material that
 looks to come from a reliable source. When other users open and execute the affected
 website, the malicious script runs in their browser, allowing the attacker to steal cookies,
-session tokens, or other sensitive information, as well as change the web page's content or
-behaviour for malicious purposes. XSS attacks operate by utilizing a user's trust in a
+session tokens, or other sensitive information, as well as change the web page&#39;s content or
+behaviour for malicious purposes. XSS attacks operate by utilizing a user&#39;s trust in a
 particular website. For example, an attacker may find a means to inject a script into a
 website, which is then mirrored back to the user and performed by their browser. This can
 occur when forms, query parameters, or other inputs are not properly sanitized by the
