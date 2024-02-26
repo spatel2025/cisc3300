@@ -1,5 +1,5 @@
 
-const person = {
+onst person = {
 name: 'Harvey Miles',
 age: 22,
 job: 'Marketing intern';
