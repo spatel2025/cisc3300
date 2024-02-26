@@ -1,5 +1,5 @@
 
-XSS (Cross Site-Scripting) attacks are a sort of security weakness commonly identified in
+XS (Cross Site-Scripting) attacks are a sort of security weakness commonly identified in
 online applications. XSS attacks allow attackers to inject harmful scripts into material that
 looks to come from a reliable source. When other users open and execute the affected
 website, the malicious script runs in their browser, allowing the attacker to steal cookies,
