@@ -1,0 +1,38 @@
+a) Add a button with an ID that changes the button's text when clicked:
+
+<button id="changeTextButton">Click Me</button>
+<script>
+document.getElementById('changeTextButton').addEventListener('click', function() {
+this.textContent = 'Text Changed!';
+});
+</script>
+
+b) Add a list with several items; change all list of items' colour to blue when any item is clicked:
+
+<ul id="colorChangeList">
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ul>
+<script>
+document.getElementById('colorChangeList').addEventListener('click', function() {
+const items = this.querySelectorAll('li');
+items.forEach(item => {
+item.style.color = 'blue'
+});
+});
+</script>
+
+c) Add a div that contains a button. When the button is clicked, append a paragraph element with text to the div after the button:
+
+<div id="container">
+<button id="addParagraphButton">Add Paragraph</button>
+</div>
+<script>
+
+document.getElementById('addParagraphButton').addEventListener('click', function() {
+const para = document.createElement('p');
+para.textContent = 'This is a new paragraph.';
+document.getElementById('container').appendChild(para);
+});
+</script>

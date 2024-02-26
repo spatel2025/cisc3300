@@ -1,0 +1,12 @@
+
+The DOM (Document Object Model) is a programming interface given by browsers that
+allows scripts to modify the content, structure, and appearance of a document while it is
+being viewed. It serves as a basis for dynamic and interactive online applications, displaying
+the page as a tree of objects that can be changed using languages such as JavaScript.
+
+Structure of DOM (DOM Tree):
+The DOM represents an HTML or XML document as a node-based tree. Each node
+represents a section of the page, such as an element, property, or paragraph of text. In an
+HTML page, the <html>, <body> and <p> tags correspond to different nodes in the DOM
+tree.
+
