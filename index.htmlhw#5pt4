@@ -1,4 +1,3 @@
-
 The DOM (Document Object Model) is a programming interface given by browsers that
 allows scripts to modify the content, structure, and appearance of a document while it is
 being viewed. It serves as a basis for dynamic and interactive online applications, displaying
