@@ -11,7 +11,7 @@
     <button id="changeTextButton">Title</button>
     <script>
         document.getElementById('changeTextButton').addEventListener('click', function() {
-            this.textContent = 'Courses Offeed';
+            this.textContent = 'Courses Offered';
         });
     </script>
 
