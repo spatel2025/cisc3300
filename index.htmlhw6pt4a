@@ -12,7 +12,7 @@
   $(document).ready(function () {
     $.ajax({
       type: 'GET',
-      url: ‘C:\Users\shrey\OneDrive\Documents\hw6\db.json’, 
+      url: ‘C:\Users\shrey\OneDrive\Documents\hw6\db.json’
       dataType: 'json',
       success: function (data) {
         console.log('GET Request Success:', data);
