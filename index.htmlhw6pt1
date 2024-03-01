@@ -8,5 +8,5 @@ PUT: This method updates a given resource with the data provided.
 
 DELETE: Removes the given resource.
 
-These techniques make it easier to do the CRUD (Create, Read, Update, and Delete) actions required when working with online resources. 
+hese techniques make it easier to do the CRUD (Create, Read, Update, and Delete) actions required when working with online resources. 
 
