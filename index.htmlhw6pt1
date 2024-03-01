@@ -1,0 +1,12 @@
+HTTP (Hypertext Transfer Protocol) is the basis for data exchange on the World Wide Web. It defines the structure and delivery of messages, as well as the actions that web servers and browsers should do in response to specific requests.
+
+GET: Gets data from a particular resource.
+
+POST: Sends data to a particular resource. 
+
+PUT: This method updates a given resource with the data provided.
+
+DELETE: Removes the given resource.
+
+These techniques make it easier to do the CRUD (Create, Read, Update, and Delete) actions required when working with online resources. 
+
