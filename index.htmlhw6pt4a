@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GET Request</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<script>
+  $(document).ready(function () {
+    $.ajax({
+      type: 'GET',
+      url: ‘C:\Users\shrey\OneDrive\Documents\hw6\db.json’, 
+      dataType: 'json',
+      success: function (data) {
+        console.log('GET Request Success:', data);
+      },
+      error: function (error) {
+        console.error('GET Request Error:', error);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+

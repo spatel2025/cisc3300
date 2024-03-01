@@ -1,0 +1,44 @@
+<!DOCTYP html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Character Search</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Rick and Morty Character Search</h1>
+    <input type="text" id="characterNameInput" placeholder="Enter Character Name">
+    <button id="searchButton">Search</button>
+    <div id="characterData"></div> <!-- Container for displaying character data -->
+    <script>
+        
+            $(document).ready(function() {
+                $('#searchButton').click(function() {
+                    var characterName = $('#characterNameInput').val().trim(); // Get input and trim whitespace
+                    var url = 'https://rickandmortyapi.com/api/character/?name=' + encodeURIComponent(characterName);
+            
+                    $.get(url, function(data) {
+                        var characters = data.results; // Array of characters matching the search
+                        var outputHtml = '';
+                        $.each(characters, function(index, character) {
+                            outputHtml += `
+                                <div>
+                                    <h2>${character.name}</h2>
+                                    <img src="${character.image}" alt="${character.name}">
+                                    <p>Status: ${character.status}</p>
+                                    <p>Species: ${character.species}</p>
+                                    <p>Gender: ${character.gender}</p>
+                                </div>
+                            `;
+                        });
+                        $('#characterData').html(outputHtml);
+                    }).fail(function() {
+                        $('#characterData').html('<p>Character not found or error fetching data. Please try again.</p>');
+                    });
+                });
+            });
+            
+    </script>
+</body>
+</html>

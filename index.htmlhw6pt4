@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GET Request</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<script>
+  $(document).ready(function () {
+    $.ajax({
+      type: 'GET',
+      url: ‘C:\Users\jaiva\Downloads\hw6\db.json’,  //change this , put the path of the JSON file
+      dataType: 'json',
+      success: function (data) {
+        console.log('GET Request Success:', data);
+      },
+      error: function (error) {
+        console.error('GET Request Error:', error);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POST Request</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<script>
+  $(document).ready(function () {
+    // Data to be added to the "comments" array
+    var newComment = {
+      "id": "3",
+      "text": "a new comment",
+      "postId": "2"
+    };
+
+    $.ajax({
+      type: 'POST',
+      url: ‘C:\Users\jaiva\Downloads\hw6\db.json ',  //change this , put the path of the JSON fil
+      dataType: 'json',
+      contentType: 'application/json',
+      data: JSON.stringify(newComment),
+      success: function (data) {
+        console.log('POST Request Success:', data);
+      },
+      error: function (error) {
+        console.error('POST Request Error:', error);
+      }
+    });
+  });
+</script>
+</body>
+</html>
+
+
+C) <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUT Request</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<script>
+  $(document).ready(function () {
+    // Data to replace the existing comment with id "2"
+    var updatedComment = {
+      "id": "2",
+      "text": "updated comment",
+      "postId": "1"
+    };
+
+    $.ajax({
+      type: 'PUT',
+      url: C:\Users\jaiva\Downloads\hw6\db.json,     ///change this , put the path of the JSON file
+      dataType: 'json',
+      contentType: 'application/json',
+      data: JSON.stringify(updatedComment),
+      success: function (data) {
+        console.log('PUT Request Success:', data);
+      },
+      error: function (error) {
+        console.error('PUT Request Error:', error);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+
