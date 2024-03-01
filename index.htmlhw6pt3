@@ -1,0 +1,4 @@
+AJAX (Asynchronous JavaScript and XML) provides asynchronous web page updates by exchanging data with a web server in the background. This means that you may edit sections of a web page without reloading the entire page.
+
+Asynchronous code refers to activities that take place independently of the main program flow. In the development of websites, it allows long-running operations to be performed without stopping the main thread, which improves the responsiveness and speed of the online application. 
+
